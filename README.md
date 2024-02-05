@@ -9,3 +9,4 @@ This does work on both VMs and Real Hardware. If you wish to use it on real hard
 ## Commands
 Only commands at the moment is clear, info, version, and a help command.
 OS does restart when you press ctrl+p
+Apparently bytes limits get in the way
