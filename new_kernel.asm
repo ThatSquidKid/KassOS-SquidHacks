@@ -72,7 +72,7 @@
 ;    call print_string
 ;    jmp mainloop
  
- welcome db 'AstraOS Beta', 0x0D, 0x0A, 0
+ welcome db 'AstroOS Beta', 0x0D, 0x0A, 0
  badcommand db 'Bad command entered.', 0x0D, 0x0A, 0
  prompt db '$', 0
  cmd_restart db 'restart', 0
@@ -82,9 +82,9 @@
  cmd_shortcut db 'shortcuts', 0
 ; msg_shortcuts db 'Ctrl+P restarts the OS', 0x0D, 0x0A, 0
 ; msg_shortcuts db 'None at the moment', 0x0D, 0x0A, 0
- msg_info1 db 'AstraOS Beta v0.0.5', 0x0D, 0x0A, 0
- msg_info2 db 'AstraOS was created by the team at Tech Cavern.', 0x0D, 0x0A, 0
- msg_help db 'AstraOS: Commands: help, clear, info', 0x0D, 0x0A, 0
+ msg_info1 db 'AstroOS Beta v0.0.5', 0x0D, 0x0A, 0
+ msg_info2 db 'AstroOS was created by the team at Tech Cavern.', 0x0D, 0x0A, 0
+ msg_help db 'AstroS: Commands: help, clear, info', 0x0D, 0x0A, 0
  buffer times 16 db 0
  
  ; ================
